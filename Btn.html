@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Random Password App</title>
+        <link rel="stylesheet" href="randomPass.css" type="text/css" media="all" />
+        <script src="https://kit.fontawesome.com/2c0e277225.js" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <div class="passContainer">
+            <h2>Random Password Generator App</h2>
+            <div class="randomPass">
+                <input type="text" name="" id="passwordShow" placeholder="" readonly/>
+            </div>
+            <div class="randomBtn">
+                <button type="submit" onclick="randomPassword()">Generate Password </button>
+            </div>
+            <button type="submit" class="copy" onclick="copyText()"><i class="fas fa-clipboard"></i></button>
+        </div>
+        
+        <script src="randomPass.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>
